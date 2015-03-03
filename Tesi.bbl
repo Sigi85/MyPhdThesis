@@ -1,0 +1,69 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{knuth:art}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Knuth}{K.}%
+     {Donald~Ervin}{D.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley}%
+  }
+  \strng{namehash}{KDE1}
+  \strng{fullhash}{KDE1}
+  \field{labelyear}{1973}
+  \field{sortinit}{K}
+  \field{title}{Computer Programming as an Art}
+  \field{volume}{3}
+  \list{location}{1}{%
+    {Reading (Massachusetts)}%
+  }
+  \field{year}{1973}
+\endentry
+
+\entry{pantieri:arte}{manual}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Pantieri}{P.}%
+     {Lorenzo}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gordini}{G.}%
+     {Tommaso}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PLGT1}
+  \strng{fullhash}{PLGT1}
+  \field{labelyear}{2011}
+  \field{sortinit}{P}
+  \field{title}{L'arte di scrivere con \LaTeX}
+  \verb{url}
+  \verb http://www.lorenzopantieri.net/LaTeX_files/ArteLaTeX.pdf
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
